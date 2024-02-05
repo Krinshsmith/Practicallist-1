@@ -1,0 +1,14 @@
+import java.util.*;
+public class Areaofcircle
+{
+	public static void main(String argus[])
+	{
+		double r,area;
+		final double Pi=3.14;
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter The Value Of Radius ::");
+		r=sc.nextDouble();
+		area=Pi*r*r;
+		System.out.print("Area Of The Circle Is ::"+area);
+	}
+}
