@@ -1,0 +1,25 @@
+import java.util.*;
+public class SumAvg
+{
+	public static void main(String argus[])
+	{
+		int a,b,c;
+		float sum,avg;
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter The Value Of a ::");
+		a=sc.nextInt();	
+		System.out.print("Enter The Value Of b ::");
+		b=sc.nextInt();
+		System.out.print("Enter The Value Of c ::");
+		c=sc.nextInt();
+
+		sum=a+b+c;
+		avg=sum/3;
+
+		System.out.println("Value Of a is ::"+a);	
+		System.out.println("Value Of b is ::"+b);
+		System.out.println("Value Of c is ::"+c);
+		System.out.println("Sum is::"+sum);
+		System.out.println("Average is ::"+avg);
+	}
+}
