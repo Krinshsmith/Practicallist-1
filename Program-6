@@ -11,10 +11,10 @@ public class CelsiustoFahrenheit
        		  double fahrenheit = convertCelsiusToFahrenheit(celsius);
 	      	  System.out.println(celsius + " Celsius is equal to " + fahrenheit + " Fahrenheit.");
        		  sc.close();
-  }
+        }
 
     public static double convertCelsiusToFahrenheit(double celsius) 
 	{
      	   return (celsius * 9/5) + 32;
-  }
+        }
 }
