@@ -3,8 +3,11 @@ public class FibonacciSeries
 {
     public static void main(String[] args) 
 	    {
-        	Scanner sc= new Scanner(System.in);
-		      System.out.print("Enter The Number of Terms (n) in The Fibonacci Sequence :: ");
+        	
+                System.out.println("My Name Is Krinshsmith Kava");
+                System.out.println("Er_no :: 220130318102");
+                Scanner sc= new Scanner(System.in);
+	        System.out.print("Enter The Number of Terms (n) in The Fibonacci Sequence :: ");
         	int n = sc.nextInt();
 	      	System.out.println("Fibonacci Sequence for the first " + n + " terms :: ");
         	printFibonacciSeries(n);
