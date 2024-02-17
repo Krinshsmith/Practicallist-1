@@ -12,7 +12,7 @@ public class FibonacciSeries
 	      	System.out.println("Fibonacci Sequence for the first " + n + " terms :: ");
         	printFibonacciSeries(n);
 	      	sc.close();
-    	}
+    	    }
 
     public static void printFibonacciSeries(int n) 
 	{  
@@ -24,6 +24,6 @@ public class FibonacciSeries
 			          int nextTerm = firstTerm + secondTerm;
             		firstTerm = secondTerm;
             		secondTerm = nextTerm;
-        	}
-  }
+        	  }
+        }
 }
