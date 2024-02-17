@@ -3,7 +3,9 @@ public class Prime_number
 {
     public static void main(String[] args) 
 	{
-        	Scanner sc= new Scanner(System.in);
+        	System.out.println("My Name Is Krinshsmith Kava");
+                System.out.println("Er_no :: 220130318102");
+                Scanner sc= new Scanner(System.in);
         	System.out.print("Enter a Number :: ");
         	int n=sc.nextInt();
         	if (isPrime(n)) 
@@ -26,7 +28,7 @@ public class Prime_number
            		 if (n%i==0) 
 		        	{
               			  return false;
-           		}
+           		        }
         	}
         	return true;
 	}
