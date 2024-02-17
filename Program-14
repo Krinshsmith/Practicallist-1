@@ -3,7 +3,9 @@ public class Weekday
 {
     public static void main(String[] args) 
 	{
-        	Scanner sc= new Scanner(System.in);
+        	System.out.println("My Name Is Krinshsmith Kava");
+                System.out.println("Er_no :: 220130318102");
+                Scanner sc= new Scanner(System.in);
         	System.out.pintln("NUmber of Days statrs from monday ::");
         	System.out.print("Enter a number (1-7): ");
         	int day = sc.nextInt();
