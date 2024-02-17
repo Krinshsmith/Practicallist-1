@@ -5,8 +5,8 @@ public class SumAvg
 	{
 		int a,b,c;
 		float sum,avg;
-                System.out.println("Krinshsmith Kava");
-                System.out.println("Er no. 220130318102");
+                System.out.println("My Name Is Krinshsmith Kava");
+                System.out.println("Er_no :: 220130318102");
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter The Value Of a ::");
 		a=sc.nextInt();	
